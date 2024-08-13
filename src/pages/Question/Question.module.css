@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    font-family: "Inconsolata", monospace;
+}
+.upperContainer{
+    margin-left: 300px;
+    margin-bottom: 40px;
+    margin-top: 5%;
+}
+.title {
+    font-size: 24px;
+}
+.title {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.title::after {
+    content: "";
+    position: absolute;
+    width: 50%; /* Adjust this percentage to control the underline length */
+    height: 2px; /* Thickness of the underline */
+    background-color: orange;
+    bottom: 0; /* Position the underline at the bottom of the title */
+    right: 49%; /* Center the underline horizontally under the text */
+}
+
+.customArrowList {
+    list-style-type: none; /* Remove default bullets */
+}
+
+.customArrowList li {
+    display: flex;
+    align-items: center; /* Align items vertically */
+    margin: 5px 0; /* Space between list items */
+    padding-bottom: 15px;
+}
+
+.arrowIcon {
+    margin-right: 10px; /* Space between arrow and text */
+    color: darkblue; /* Color of the arrow */
+}
+
+ul li {
+    font-size: 16px;
+}
+
+.questionTitle {
+    text-align: center;
+    font-size: 24px;
+}
+.questionTitleInput {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.questionTitleInput input {
+    width: 100%;
+    max-width: 800px;
+    padding: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 7px;
+}
+.questionDescription textarea {
+    width: 100%;
+    max-width: 800px;
+    padding: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+    padding-bottom: 55px;
+    border: 2px solid black;
+    border-radius: 7px;
+    resize: vertical; /* Allow vertical resizing */
+    overflow: hidden; /* Hide the scrollbar */
+}
+
+.questionDescription {
+    text-align: center;
+}
+
+.button {
+    color: white;
+    background-color: rgba(0, 0, 255, 0.8);
+    margin-left: 303px;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+}
+.title {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+.title::after {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 2px; 
+  background-color: orange;
+  bottom: 0; 
+  right: 49%; 
+}
+
+.customArrowList {
+  list-style-type: none; 
+}
+
+.customArrowList li {
+  display: flex;
+  align-items: center; /* Align items vertically */
+  margin: 5px 0; /* Space between list items */
+  padding-bottom: 15px;
+}
+
+.arrowIcon {
+  margin-right: 10px; /* Space between arrow and text */
+  color: darkblue; /* Color of the arrow */
+}
+
+ul li {
+  font-size: 16px;
+}
+
+.questionTitle {
+  text-align: center;
+  font-size: 24px;
+}
+.questionTitleInput {
+  text-align: center;
+  margin-bottom: 20px; 
+}
+
+.questionTitleInput input {
+  width: 100%;
+  max-width: 800px; 
+  padding: 10px; 
+  font-size: 16px; 
+  box-sizing: border-box; 
+  border: 2px solid black;
+  border-radius: 7px;
+}
+.questionDescription textarea {
+  width: 100%;
+  max-width: 800px; 
+  padding: 10px; 
+  font-size: 16px; 
+  box-sizing: border-box; 
+  padding-bottom: 55px;
+  border: 2px solid black;
+  border-radius: 7px;
+  resize: vertical; /* Allow vertical resizing */
+  overflow: hidden; /* Hide the scrollbar */
+}
+
+.questionDescription {
+  text-align: center;
+}
+
+form{
+  padding-bottom: 5%;
+}
+
+.button{
+    color: white;
+    background-color: #003f69;
+    margin-left: 303px;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    width: 15vw;
+  }
+

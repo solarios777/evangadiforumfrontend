@@ -1,0 +1,191 @@
+/* General Styles */
+.registerSection {
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+.registerSection h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.registerButton {
+  width: 100%;
+  background-color: #003f69;
+}
+
+h3 {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+
+.registerForm {
+  margin-bottom: 15px;
+}
+
+.formGroupName {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.formGroup {
+  margin-bottom: 15px;
+}
+
+input {
+  border-radius: 5px;
+  border: 1px solid silver;
+  outline: none;
+  padding: 8px;
+  box-sizing: border-box;
+  transition: border-bottom 0.3s ease-in-out;
+  font-size: 14px;
+}
+
+input:focus {
+  border: 1px solid silver;
+  border-bottom: 3px solid orange;
+  z-index: 100;
+}
+
+.loginLink {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.formInput {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.errorBorder {
+  border: 1px solid red;
+}
+
+.passwordContainer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.passwordInput {
+  width: 100%;
+  padding: 8px 40px 8px 10px;
+  box-sizing: border-box;
+}
+
+.passwordToggle {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: orange;
+  font-size: 18px;
+  z-index: 101;
+}
+
+.passwordStrengthContainer {
+  margin-top: 8px;
+  z-index: 100;
+}
+
+.strengthIndicator {
+  height: 10px;
+  transition:
+    width 0.3s,
+    background-color 0.3s;
+}
+
+.passwordRequirements {
+  list-style: disc;
+  padding-left: 20px;
+  margin: 8px 0 0;
+  font-size: 0.8rem;
+  color: #666;
+}
+
+.red {
+  background-color: red;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.blue {
+  background-color: #4285f4;
+}
+
+.green {
+  background-color: green;
+}
+
+.transparent {
+  background-color: transparent;
+}
+
+/* Media Queries */
+@media (max-width: 600px) {
+  .registerSection {
+    width: 90%;
+    padding: 15px;
+  }
+
+  .registerSection h2 {
+    font-size: 20px;
+  }
+
+  .registerButton {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  h3 {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+
+  .formGroupName {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .formGroup {
+    margin-bottom: 10px;
+  }
+
+  input {
+    padding: 8px;
+    font-size: 12px;
+  }
+
+  .passwordContainer {
+    margin-bottom: 15px;
+  }
+
+  .passwordToggle {
+    font-size: 16px;
+  }
+
+  .passwordStrengthContainer {
+    margin-top: 5px;
+  }
+
+  .passwordRequirements {
+    font-size: 0.7rem;
+  }
+}

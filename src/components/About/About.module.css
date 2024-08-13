@@ -1,0 +1,69 @@
+/* About.module.css */
+
+.container {
+  display: flex;
+  margin-top: 10rem;
+  margin-left: -5rem;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f9f9f9;
+
+  width: 100%;
+}
+
+.leftSection, .rightSection {
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.rightSection {
+  
+  padding: 50px;
+ 
+  border-radius: 10px;
+
+  /* margin: 50px; */
+  margin-bottom: 140px;
+}
+
+.rightSection .aboutTitle {
+  color: #ff7a00;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.rightSection .networkName {
+  color: #a04100;
+  font-size: 36px;
+  margin: 10px 0;
+}
+
+.rightSection .aboutText {
+  color: #666;
+  font-size: 19px;
+  /* line-height: 1.6; */
+  margin: 20px 0;
+}
+
+.rightSection .howitworks {
+  background-color: #ff7a00;
+  color: #fff;
+  border: none;
+  padding: 15px 30px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.rightSection .howitworks:hover {
+  background-color: #e66a00;
+}
+
+@media (max-width: 768px) {
+  .rightSection {
+      display: none;
+  }
+}
